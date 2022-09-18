@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    
 }
 header{
     width: 100%;
@@ -33,11 +37,23 @@ nav ul li a{
 }
 .imgprincipal{
     width: 100%;
-    background-image: url("/img/ldr2.jpg");
+    background-image: url("/img/bg_jibaro.png");
     background-size: cover;   
-    height: 650px; 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 94vh; 
+}
+.logoLDR{
+    z-index: 3;
+    position: absolute;
+    left: 4%;
+    top: 42%;
+    max-width: 800px;
+    
 }
 section.diretores{
+    margin-top: 60px;
+    margin-bottom: 60px;
     display: flex;
     width: 83.0555556vw;
     justify-content: space-between;
@@ -51,35 +67,111 @@ div.imgprincipal{
 }
 main{
     display: flex;
-    height: 1150px;
+    height: 100vh;
     flex-direction: column;
     align-items: flex-start;
     margin-left: 7.625rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
 }
-section.resenha {
+p.jibaro {
     display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    flex-wrap: wrap;
     justify-content: center;
+    position: absolute;
+    top: 65%;
+    left: 6%;
+    flex-direction: column;
+    align-items: center;
 }
 #resenhaLDR{
+    margin-top: 60px;
     text-align: justify;
     width: 83.0555556vw;
 }
 h1{
-    font-size: 4rem;
-    margin-top: 1.875rem;
+    font-size: 4.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    letter-spacing: 0.05em;
+    color: #000;
 }
 iframe{
     border-radius: 0.75rem;
     margin-bottom: 2rem;
     width: 83.0555556vw;
+    height: 60vh;
+}
+.video{
+    margin-bottom:40px;
 }
 footer{
     height: 22.75rem;
     background-color: #171717;
     color: #fff;
+}
+@media (max-width:1280px){
+    .logoLDR{
+        position: absolute;
+        left: 4%;
+        top: 70%;
+        max-width: 700px;
+}
+p.jibaro {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 71.5%;
+    left: 75%;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4rem;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+h1{
+    font-size: 3.8rem;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    letter-spacing: 0.05em;
+    color: #000;
+}
+main{
+    display: flex;
+    height: 120vh;
+}
+.imgprincipal{
+    height: 92vh;
+    margin-bottom: 50px; 
+}
+#resenhaLDR{
+    margin-top: 0px;
+}
+.rating {
+    display: flex;
+    height: 120px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.estrelas{
+    max-width: 120px;
+}
+.title{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.nome{
+    font-size:0.9rem;
+    
+}
+a{
+    text-decoration: none;
+    color: #b99528;
+}
 }
