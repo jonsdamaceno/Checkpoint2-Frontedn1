@@ -354,7 +354,16 @@ background-position-y:-480px;
     #resenhaLDR{
       font-size: 0.8rem;
     }
-    
+    @media (min-width:1400px){
+      #resenhaLDR{
+        font-size: 1rem;
+        width: 50vw;
+      }
+      section.diretores, .rating, span.epinfo, div.categorias,iframe {
+        width: 50vw;
+      }
+ 
+
 }
 
 /*crédito da animação dos botões* 
