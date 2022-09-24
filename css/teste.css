@@ -329,7 +329,33 @@ background-position-y:-480px;
   }  
   #resenhaLDR {
     height: auto;
-  }
+  } 
+  @media (min-width:1025px){
+    .imgprincipal {
+      width: 100%;
+      background-image: url("/img/bg_jibaro.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100vh;
+    }
+    .logogif{
+      max-width: 222px;
+      position: absolute;
+      left: 7.5%;
+      top: 68%;
+    }
+    a.jibaro {
+      display: inline;
+      max-width: 222px;
+      position: absolute;
+      left: 7.5%;
+      top: 82%;
+    }
+    #resenhaLDR{
+      font-size: 0.8rem;
+    }
+    
 }
+
 /*crédito da animação dos botões* 
       https://codepen.io/mattgrosswork/pen/VwprebG *\
