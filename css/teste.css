@@ -249,7 +249,7 @@ background-position-y:-480px;
     }
     main {
       display: flex;
-      height: 155vh;
+      height: auto;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-around;
@@ -307,8 +307,29 @@ background-position-y:-480px;
     justify-content: space-between;
     align-items: flex-start;
   }
-  @media (min-width:768px){
-
+  @media (min-width:1024px){
+  .imgprincipal {
+    width: 100%;
+    background-image: url("/img/bg_jibaro.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 55vh;
+  }  
+  .logogif{
+    max-width: 222px;
+    position: absolute;
+    left: 7.5%;
+    top: 45%;
+  }
+  a.jibaro {
+  display: none;
+  }
+  p.description{
+    display: none;
+  }  
+  #resenhaLDR {
+    height: auto;
+  }
 }
 /*crédito da animação dos botões* 
       https://codepen.io/mattgrosswork/pen/VwprebG *\
