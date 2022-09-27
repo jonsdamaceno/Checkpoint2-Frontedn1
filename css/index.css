@@ -446,4 +446,8 @@ footer .copyright {
     .logo {
         width: 140px;
     }
+
+    .authors {
+        width: 80%;
+    }
 }
