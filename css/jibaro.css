@@ -66,6 +66,7 @@ span.description{
   flex-wrap: nowrap;
   justify-content: space-around;
   margin-bottom: 7rem;
+  align-items: center;
 }
 h2.title {
   margin-bottom: 0.313rem;
