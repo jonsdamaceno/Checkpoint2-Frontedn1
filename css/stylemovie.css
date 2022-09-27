@@ -146,22 +146,44 @@ nav#autores .conteudo{
 1280+    => Larger desktops and monitors
 */
 @media (max-width: 480px){
-    body{
-        width: 480px;
-    }
-}
-@media (max-width: 768px){
-    body{
-        width: 768px;
-    }
-}
-@media (max-width: 1279px){
-    body{
-        width: 1279px;
-    }
-}
-@media (min-width: 1280px){
-    body{
+    .cartaz{
+        height: 250px;
         width: 100%;
+        background-size:auto;
+        background-position: center;
+        font-size: 1.5rem;
+        margin: 0px;
     }
+    main h1, p{
+        margin: 5px 61px;
+    }   
+    main h1{
+        font-size: 2rem;
+        font-weight: 450;
+        text-transform: uppercase;
+    }
+    .ranking{
+        margin-left: 61px;
+    }
+    .producao{
+        margin: 20px 61px;
+    }
+    .diretor{
+        font-size: 1.5rem;
+        font-weight: 250;
+    }
+    .elenco{
+        font-size: 1.125rem;
+        font-weight: 300;
+    }
+    main h2{
+        font-size: 2rem;
+        font-weight: 300;
+        margin: 5px 61px;
+    }
+    .trailer{
+        margin: 5px 15px;
+        height: 359px;
+    }
+
 }
