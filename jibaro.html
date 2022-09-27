@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/jibaro.css">
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
@@ -11,17 +12,24 @@
 </head>
 <body>
     <header>
-        <img src="./img/logo.png" alt="logo" class="logo">
-        <nav>
-        <img src="./img/menu.png" alt="menu dropdown" class="menudropdown">    
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#itens">Itens</a></li>
-            <li><a href="#aboutus">Sobre nós</a></li>
-            <li><a href="#login">Login</a></li>
-        </ul>
+        <img class="logo" src="https://raw.githubusercontent.com/afrataiza/teste/main/dhlogo.png" alt="Digital House">
+        <nav class="menu">
+          <a class="link" href="#banner">Home</a>
+          <a class="link" href="#items">Filmes</a>
+          <a class="link" href="#footer">Sobre nós</a>
+          <a class="link" href="#">Login</a>
         </nav>
-    </header>
+        <a href="#open-modal" class="btn-menu"></a>
+        <div id="open-modal" class="modal-window">
+          <div class="navegacao">
+            <a href="#" title="Close" class="modal-close">Fechar</a>
+            <a class="link" href="#banner">Home</a>
+            <a class="link" href="#items">Filmes</a>
+            <a class="link" href="#footer">Sobre nós</a>
+            <a class="link" href="#">Login</a>
+          </div>
+        </div>
+      </header>
 
     <div class="imgprincipal">    
         <div class="intro">
@@ -71,17 +79,68 @@
             <iframe width="1200" height="700" src="https://www.youtube.com/embed/JeUuk-g_Qws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </main>
-    <footer>
-        <nav>
-            <ul>Aluno1</ul>
-            <ul>Aluno1</ul>
-            <ul>Aluno1</ul>
-            <ul>Aluno1</ul>
-            <ul>Aluno1</ul>
-            <ul>Aluno1</ul>
-            <ul>Aluno1</ul>
-            <ul>Aluno1</ul>
+    <footer id="footer">
+        <div class="footer-title">Desenvolvedores</div>
+        <nav class="authors">
+          <div class="dev">
+            <span>Afra Taíza</span>
+            <div class="icons">
+              <a class="linkedin" href="https://www.linkedin.com/in/afrataiza"></a>
+              <a class="github" href="https://github.com/afrataiza"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Carina</span>
+            <div class="icons">
+              <a class="linkedin" href="#"></a>
+              <a class="github" href="https://github.com/Carinapinheiro"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Carlos</span>
+            <div class="icons">
+              <a class="linkedin" href="#"></a>
+              <a class="github" href="#"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Febrônio</span>
+            <div class="icons">
+              <a class="linkedin" href="#"></a>
+              <a class="github" href="https://github.com/fba-boni"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Fernanda</span>
+            <div class="icons">
+              <a class="linkedin" href="#"></a>
+              <a class="github" href="https://github.com/Fermqs"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Jônatas</span>
+            <div class="icons">
+              <a class="linkedin" href="#"></a>
+              <a class="github" href="https://github.com/jonsdamaceno"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Patrícia</span>
+            <div class="icons">
+              <a class="linkedin" href="https://www.linkedin.com/in/patr%C3%ADcia-delvequi/"></a>
+              <a class="github" href="https://github.com/delvequi"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Rafael</span>
+            <div class="icons">
+              <a class="linkedin" href="#"></a>
+              <a class="github" href="#"></a>
+            </div>
+          </div>
         </nav>
-    </footer>
+        <div class="copyright">Checkpoint 2 - Setembro de 2022</div>
+      </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
