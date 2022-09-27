@@ -126,9 +126,15 @@ iframe{
     justify-content: space-around;
     flex-wrap: nowrap;
 }
-/*----> CSS HEADER <----
-
-----> CSS FOOTER <----*/
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+p {
+    text-align: justify;
+}
 footer {
     background-color: #222;
     display: flex;
@@ -278,12 +284,7 @@ footer .copyright {
 
 
 /*Editando banner*/
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items:flex-start;
-}
+
 
 #banner {
    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(https://raw.githubusercontent.com/afrataiza/teste/main/banner.jpg);
