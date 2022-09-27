@@ -8,6 +8,9 @@
   scroll-behavior: smooth;
 }
 header {
+  z-index: 3;
+  position:sticky;
+  top: 0;
   width: 100%;
   height: 5rem;
   display: flex;
@@ -15,6 +18,7 @@ header {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
+  background-color: #fff;
 }
 nav ul {
   display: none;
@@ -273,7 +277,7 @@ background-position-y:-480px;
       flex-direction: column;
       align-items: flex-start;
   }
-    .rating {
+    #rating {
       display: flex;
       height: 28vh;
       flex-direction: column;
@@ -363,7 +367,15 @@ background-position-y:-480px;
         font-size: 1rem;
         width: 50vw;
     }
-    section.diretores, .rating, span.epinfo, div.categorias,iframe, .titlerating {
+    section.diretores, #rating, span.epinfo, div.categorias,iframe, .titlerating {
         width: 50vw;
     }
+    main {
+      display: flex;
+      height: auto;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: center;
+  }
 }
