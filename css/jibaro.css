@@ -23,7 +23,6 @@ header {
 nav ul {
   display: none;
 }
-
 .logo {
   margin-left: 1.5rem;
 }
@@ -44,9 +43,6 @@ h1 {
   color: #000;
 }
 span.description{
-  position: absolute;
-  top: 72%;
-  left: 12.5%;
   font-size: 1.3rem;
   line-height: 1.8rem;
   font-family: 'Roboto',sans-serif;
@@ -55,12 +51,23 @@ span.description{
   text-shadow: 0.125rem 0.188rem 0.25rem rgba(0,0,0,0.91);
 }
 .imgprincipal {
+  display: flex;
   width: 100%;
   background-image: url("/img/Golden_Woman_Jibaro_Love_Death_Robots.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
+  align-items: flex-end;
+  justify-content: center;
+}
+.intro {
+  display: flex;
+  height: 48vh;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-bottom: 7rem;
 }
 h2.title {
   margin-bottom: 0.313rem;
@@ -84,7 +91,7 @@ span.epinfo {
   width: 85vw;
   text-align: justify;
 }
-.rating {
+#rating {
   display: flex;
   height: 42vh;
   flex-direction: column;
