@@ -163,20 +163,28 @@ input {
     flex-wrap: nowrap;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 main{
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner-filme{
     background-image: url('../img/banner-filme.webp');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 100vw;
     height: 650px;
 }
 
-.movieInfos{
-    width: 90vw;
+.movieGeral{
+    width: 75vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -205,16 +213,49 @@ h2{
     margin: 5px 5px 5px 0;
 }
 
+.movieInfo{
+    color: #000000BF;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2.188rem;
+    width: 85vw;
+}
+
+.category{
+    width: 285px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.category span{
+    width: auto;
+    height: 2.813rem;;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 2.5rem;
+    border: solid 2.5px #E51B3E;
+    border-radius: 8px;
+    padding: 0 0.938rem;
+}
+
+.category span:hover{
+    background-color: #E51B3E;
+    color: white;
+    transition: 0.5s;
+}
+
 p{
     color: #000000BF;
     font-weight: 400;
-    font-size: 1.125rem;
+    font-size: 0.95rem;
     line-height: 21px;
     margin: 20px 0;
 }
 
 .ficha-tecnica{
-    width: 500px;
+    width: 35vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -222,16 +263,16 @@ p{
 }
 
 .ficha-tecnica h4{
-    color: #000000;
+    color: #000000BF;
     font-weight: 500;
-    font-size: 1.375rem;
+    font-size: 1.125rem;
     line-height: 28px;
 }
 
 .ficha-tecnica h4 span{
-    color: #0085FF;
+    color: #E51B3E;
     font-weight: 400;
-    font-size: 1.125rem;
+    font-size: 0.95rem;
     line-height: 21px;
 }
 
