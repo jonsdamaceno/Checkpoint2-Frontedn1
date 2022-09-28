@@ -25,7 +25,7 @@ Clique [aqui](https://jonsdamaceno.github.io/Checkpoint2-Frontedn1/index.html) p
 
 - Afra Taíza - [@afrataiza](https://www.github.com/afrataiza)
 - Carina Pinheiro - [@carina](https://www.github.com/Carinapinheiro)
-- Carlos Augusto - [@carlos](https://www.github.com/afrataiza)
+- Carlos Augusto - [@carlos](https://www.github.com/CarlosAugusto14)
 - Febrônio - [@febronio](https://www.github.com/fba-boni)
 - Fernanda Marques - [@fenanda](https://www.github.com/Fermqs)
 - Jônatas Damaceno - [@jonatas](https://www.github.com/jonsdamaceno)
