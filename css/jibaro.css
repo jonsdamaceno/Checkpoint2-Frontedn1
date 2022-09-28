@@ -610,6 +610,8 @@ footer .copyright {
     #resenhaLDR{
       font-size: 0.8rem;
     }
+    .authors {
+      justify-content: space-evenly;
 }
   @media (min-width:1400px){
     .logogif{
@@ -630,4 +632,8 @@ footer .copyright {
       justify-content: space-around;
       align-content: center;
   }
+  .authors {
+    justify-content: space-evenly;
+  }
 }
+  }
