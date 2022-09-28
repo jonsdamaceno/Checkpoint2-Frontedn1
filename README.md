@@ -19,7 +19,7 @@ O grupo pôde desenvolver habilidades em soft skills, como comunicação, trabal
 
 ## Demonstração
 
-Clique [aqui](https://afrataiza.github.io/teste/) para ver uma demonstração do projeto.
+Clique [aqui](https://jonsdamaceno.github.io/Checkpoint2-Frontedn1/index.html) para ver uma demonstração do projeto.
 
 ## Autores
 
