@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 /* ----> CSS HEADER <---- */
 header {
     background-image: linear-gradient(to left, #7f53ac 0, #657ced 100%);
