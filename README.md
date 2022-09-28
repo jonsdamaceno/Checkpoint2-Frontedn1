@@ -1,4 +1,3 @@
-
 # HOUSE FLIX
 
 Projeto integrador de Front End 1, para conclusão do bimestre, no curso Certified Tech Developer da escola Digital House. O projeto foi realizado em grupo, utilizando html, css, bootstrap.
@@ -32,7 +31,4 @@ Clique [aqui](https://afrataiza.github.io/teste/) para ver uma demonstração do
 - Jônatas Damaceno - [@jonatas](https://www.github.com/jonsdamaceno)
 - Patrícia Delvequi - [@delvequi](https://www.github.com/delvequi)
 - Rafael Barroso - [@rafael](https://www.github.com/barroso3b)
-
-
-
 
