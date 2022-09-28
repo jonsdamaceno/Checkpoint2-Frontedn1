@@ -224,6 +224,10 @@ article a {
   text-decoration: none;
   color: #b99528;
 }
+article a:hover{
+  text-decoration: none;
+  color:#E51B3E;
+}
 a.categories1 {
   width: auto;
   padding: 0 0.938rem 0 0.938rem;
