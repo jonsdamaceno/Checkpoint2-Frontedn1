@@ -108,7 +108,7 @@ body{
   display: none;
 }
 .btn-menu {
-  background: url("/img/hamburger.png");
+  background: url("../img/hamburger.png");
   padding: 1em 1.5em;
   border-radius: 0.5rem;
   text-decoration: none;
@@ -136,7 +136,7 @@ span.description{
 .imgprincipal {
   display: flex;
   width: 100%;
-  background-image: url("/img/Golden_Woman_Jibaro_Love_Death_Robots.png");
+  background-image: url("../img/Golden_Woman_Jibaro_Love_Death_Robots.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -247,7 +247,7 @@ a.categories1 {
 }
 a.categories1:hover {
   color: #fff;
-  background: #ec0b36 url("/img/pixel.png");
+  background: #ec0b36 url("../img/pixel.png");
   transition-delay: 0.8s;
   background-size: 130px;
   animation: animate 0.8s steps(8) forwards;
@@ -274,7 +274,7 @@ a.jibaro {
 }
 a.jibaro:hover{
 color: #fff;
-background: #ec0b36 url("/img/pixel.png");
+background: #ec0b36 url("../img/pixel.png");
 transition-delay: 0.8s;
 background-size: 130px ;
 animation: animate 0.8s steps(8) forwards;
@@ -442,7 +442,7 @@ footer .copyright {
 @media (min-width:768px){
     .imgprincipal {
         width: 100%;
-        background-image: url("/img/Golden_Woman_Jibaro_Love_Death_Robots_2.png");
+        background-image: url("../img/Golden_Woman_Jibaro_Love_Death_Robots_2.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -555,7 +555,7 @@ footer .copyright {
   @media (min-width:1024px){
   .imgprincipal {
     width: 100%;
-    background-image: url(/img/Golden_Woman_Jibaro_Love_Death_Robots_3.png);
+    background-image: url(../img/Golden_Woman_Jibaro_Love_Death_Robots_3.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 55vh;
@@ -589,7 +589,7 @@ footer .copyright {
   @media (min-width:1025px){
     .imgprincipal {
       width: 100%;
-      background-image: url("/img/Golden_Woman_Jibaro_Love_Death_Robots_3.png");
+      background-image: url("../img/Golden_Woman_Jibaro_Love_Death_Robots_3.png");
       background-repeat: no-repeat;
       background-position: center;
       height: 100vh;
