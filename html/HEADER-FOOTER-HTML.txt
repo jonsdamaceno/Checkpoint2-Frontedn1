@@ -1,0 +1,86 @@
+------> HEADER <------
+  <header>
+      <img class="logo" src="https://raw.githubusercontent.com/afrataiza/teste/main/dhlogo.png" alt="Digital House">
+      <nav class="menu">
+        <a class="link" href="#banner">Home</a>
+        <a class="link" href="#items">Filmes</a>
+        <a class="link" href="#footer">Sobre nós</a>
+        <a class="link" href="#">Login</a>
+      </nav>
+      <a href="#open-modal" class="btn-menu"></a>
+      <div id="open-modal" class="modal-window">
+        <div class="navegacao">
+          <a href="#" title="Close" class="modal-close">Fechar</a>
+          <a class="link" href="#banner">Home</a>
+          <a class="link" href="#items">Filmes</a>
+          <a class="link" href="#footer">Sobre nós</a>
+          <a class="link" href="#">Login</a>
+        </div>
+      </div>
+    </header>
+------> HEADER <------
+
+------> FOOTER <------
+ <footer id="footer">
+        <div class="footer-title">Desenvolvedores</div>
+        <nav class="authors">
+          <div class="dev">
+            <span>Afra Taíza</span>
+            <div class="icons">
+              <a class="linkedin" href="https://www.linkedin.com/in/afrataiza"></a>
+              <a class="github" href="https://github.com/afrataiza"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Carina</span>
+            <div class="icons">
+              <a class="linkedin" href="#"></a>
+              <a class="github" href="https://github.com/Carinapinheiro"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Carlos</span>
+            <div class="icons">
+              <a class="linkedin" href="#"></a>
+              <a class="github" href="#"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Febrônio</span>
+            <div class="icons">
+              <a class="linkedin" href="#"></a>
+              <a class="github" href="https://github.com/fba-boni"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Fernanda</span>
+            <div class="icons">
+              <a class="linkedin" href="#"></a>
+              <a class="github" href="https://github.com/Fermqs"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Jônatas</span>
+            <div class="icons">
+              <a class="linkedin" href="#"></a>
+              <a class="github" href="https://github.com/jonsdamaceno"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Patrícia</span>
+            <div class="icons">
+              <a class="linkedin" href="https://www.linkedin.com/in/patr%C3%ADcia-delvequi/"></a>
+              <a class="github" href="https://github.com/delvequi"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Rafael</span>
+            <div class="icons">
+              <a class="linkedin" href="#"></a>
+              <a class="github" href="#"></a>
+            </div>
+          </div>
+        </nav>
+        <div class="copyright">Checkpoint 2 - Setembro de 2022</div>
+      </footer>
+------> FOOTER <------
