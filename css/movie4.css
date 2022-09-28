@@ -8,7 +8,7 @@
 }
 
 header {
-    background-color: white;
+    background-image: linear-gradient(to left, #7f53ac 0, #657ced 100%);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,7 +16,9 @@ header {
     width: 100vw;
     padding: 0 60px;
     position: sticky;
-    top: 0;
+    top: 0px;
+    z-index: 999;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
 }
 
 .menu {
@@ -28,10 +30,10 @@ header {
 }
 
 .link {
-    color: #626262;
+    color: #222;
     font-size: 18px;
     font-weight: 400;
-    line-height: 21px;
+    line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
     text-decoration: none;
@@ -39,13 +41,81 @@ header {
     padding-left: 10px;
 }
 
-.menu a:hover {
+.link:hover {
     color: #E51B3E;
     font-weight: bold;
+    text-decoration: underline;
 }
 
-.dropdown {
+.modal-window {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.25);
+    top: 100px;
+    right: 100px;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+.modal-window:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal-window:target div {
+    width: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: white;
+}
+
+.modal-close {
+    color: #aaa;
+    line-height: 50px;
+    font-size: 80%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 70px;
+    text-decoration: none;
+}
+
+.modal-close:hover {
+    color: black;
+}
+
+.modal-window,
+.navegacao {
+    border-radius: 0.5rem;
+}
+
+.modal-window div:not(:last-of-type) {
+    margin-bottom: 15px;
+}
+
+.btn-menu {
+    background: url("https://afrataiza.github.io/teste/hamburger.png");
+    padding: 1em 1.5em;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    background-size: contain;
+    background-repeat: no-repeat;
     display: none;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: nowrap;
 }
 
 main{
@@ -141,19 +211,18 @@ p{
 footer {
     background-color: #222;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     height: 300px;
     width: 100vw;
 }
 
-footer h3 {
-    align-self: flex-end;
+footer .copyright {
     background-color: #171717;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 400;
-    line-height: 28px;
     letter-spacing: 0em;
     display: flex;
     align-items: center;
@@ -162,38 +231,103 @@ footer h3 {
     height: 50px;
 }
 
+.footer-title {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 30px;
+}
+
 .authors {
-    align-self: center;
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
-    width: 50%;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+.icons a {
+    opacity: 0;
+
+    will-change: transform;
+    transform: scale(0.1);
+    transition: all 0.3s ease-out;
+}
+
+.linkedin {
+    background-image: url(https://icones.pro/wp-content/uploads/2021/03/icone-linkedin-ronde-grise.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+
+.github {
+    background-image: url(https://icones.pro/wp-content/uploads/2021/06/icone-github-grise.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
 }
 
 .dev {
-    width: 25%;
-    height: 80px;
+    background-color: #171717;
+    position: relative;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 80px;
+    width: 120px;
+    height: 40px;
+    will-change: transform;
+    transition: all 0.2s ease-in-out;
 }
 
-.dev h4 {
+.dev:hover {
+    transform: scale(1.1);
+}
+
+.dev span {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    border-radius: 80px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-    font-weight: 400;
-    line-height: 1.75rem;
-    letter-spacing: 0em;
-    text-align: left;
-    margin-bottom: 5px;
+    background-color: #222222;
+    transition: all 1.2s ease;
 }
 
-.dev a:nth-child(1) {
-    margin-right: 5px;
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 80px;
 }
 
-.dev a img {
-    width: 16px;
-    height: 16px;
+.icons a:nth-of-type(1) {
+    transition-delay: 1.1s;
+}
+
+.icons a:nth-of-type(2) {
+    transition-delay: 0.9s;
+}
+
+.dev:hover span {
+    transition-delay: 0.25s;
+    transform: translateX(-280px);
+}
+
+.dev:hover a {
+    opacity: 1;
+    transform: scale(1);
 }
 
 @media (max-width: 460px){
@@ -201,15 +335,15 @@ footer h3 {
         padding: 0 20px;
     }
 
-    .menu {
-        display: none;
-    }
-
     .logo {
         width: 140px;
     }
 
-    .dropdown {
+    .menu {
+        display: none;
+    }
+
+    .btn-menu {
         display: block;
     }
 
@@ -225,5 +359,9 @@ footer h3 {
 
     .trailer iframe{
         height: 230px;
+    }
+
+    .authors {
+        width: 80%;
     }
 }
