@@ -21,6 +21,51 @@ header {
     z-index: 999;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
 }
+.modal-header {
+  border-bottom: 0;
+}
+
+.loginHeader{ 
+  width: 15rem;
+  margin-left: 7rem;
+  
+}
+
+.modal-content {
+  border: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+label {
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+
+input {
+  width: 25rem;
+  border-radius: 0.30rem;
+  border-color: #ccc9c9;
+  border-width: 0.1rem;
+}
+  
+
+.modal-footer {
+  border-top: 0;
+}
+
+.loginButton{
+  color: white;
+  background-color: rgb(6, 156, 6);
+  width: 25rem;
+  margin-right: 2.5rem;
+  margin-top: 2rem;
+}
+
 iframe{
     background-color: #222;
     display: flex;
