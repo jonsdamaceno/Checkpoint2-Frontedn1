@@ -601,6 +601,9 @@ footer .copyright {
 }
 }
   @media (min-width:1024px){
+    .categorias{
+      height: auto;
+    }
     .menu {
       display: flex;
       align-items: center;
@@ -642,6 +645,9 @@ footer .copyright {
 } 
 }
   @media (min-width:1025px){
+    .categorias{
+      height:auto;
+    }
     .menu {
       display: flex;
       align-items: center;
@@ -679,6 +685,9 @@ footer .copyright {
       justify-content: space-evenly;
 }
   @media (min-width:1400px){
+    .categorias{
+      height:auto;
+    }
     .menu {
       display: flex;
       align-items: center;
