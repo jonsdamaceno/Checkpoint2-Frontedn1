@@ -134,6 +134,7 @@ main {
 }
 p {
     text-align: justify;
+    text-indent: 20px; /*dá um espacinho no inicio do paragrafo*/
 }
 footer {
     background-color: #222;
