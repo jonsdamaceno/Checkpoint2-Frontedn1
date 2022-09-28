@@ -335,7 +335,7 @@ footer .copyright {
 #banner {
    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(https://raw.githubusercontent.com/afrataiza/teste/main/banner.jpg);
     */
-    background-image: url("../Img/Banner-big-hero.jpg");
+    background-image: url("../img/Banner-big-hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
