@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./ccs/index.css">
+    <title>House Flix</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous" defer></script>
+</head>
+<body>
+ <!-- Modal -->
+<div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="loginHeader" src="https://raw.githubusercontent.com/afrataiza/teste/main/dhlogo.png" alt="Digital House">
+        <form>
+          <label for="email">Email</label>
+          <input type="email" name="email">
+          <label for="senha">Senha</label>
+          <input type="password" name="senha">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn loginButton">Entrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+    <header>
+        <img class="logo" src="https://raw.githubusercontent.com/afrataiza/teste/main/dhlogo.png" alt="Digital House">
+        <nav class="menu">
+          <a class="link" href="#banner">Home</a>
+          <a class="link" href="#items">Filmes</a>
+          <a class="link" href="#footer">Sobre nós</a>
+          <a class="link" href="#" data-toggle="modal" data-target="#login">Login</a>
+        </nav>
+        <a href="#open-modal" class="btn-menu"></a>
+        <div id="open-modal" class="modal-window">
+          <div class="navegacao">
+            <a href="#" title="Close" class="modal-close">Fechar</a>
+            <a class="link" href="#banner">Home</a>
+            <a class="link" href="#items">Filmes</a>
+            <a class="link" href="#footer">Sobre nós</a>
+            <a class="link" href="#" data-toggle="modal" data-target="#login">Login</a>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section id="banner">
+          <h2>House Flix</h2>
+          <span>Confira a maior coletânea de filmes que o nosso catálogo pode oferecer</span>
+          <a href="#items">Explorar</a>
+        </section>
+        <section id="items" class="flip-container">
+           <h2>Filmes</h2>
+          <div class="flipper1 flipper">
+            <div class="card">
+              <div class="front">
+                <img src="https://www.themoviedb.org/t/p/original/5EodFesjReSDlX1c0I5ANZijBFy.jpg" />
+              </div>
+              <div class="back">
+                <div class="text-card">
+                  <h3>Operação Big Hero</h3>
+                  <p>O grande robô inflável está sempre a postos para cuidar de Hiro Hamada. Quando algo devastador assola a cidade, o menino prodígio, seus amigos e o robô formam um grupo de heróis para combater o mal.
+                  </p>
+                  <a href="#items">Detalhes</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flipper2 flipper">
+            <div class="card">
+              <div class="front">
+                <img src="https://www.themoviedb.org/t/p/original/aJZOcorpgloDLkPP6ED0t9sXjNu.jpg" />
+              </div>
+              <div class="back">
+                <div class="text-card">
+                  <h3>As Branquelas</h3>
+                  <p>O que acontece quando dois atrapalhados agentes do FBI se disfarçam de princesas mega-ricas para se infiltrarem na alta sociedade? O resultado é situações extremamente engraçadas e diversão total ao ver estes dois irmãos azarados transformando-se em duas senhoritas refinadas e com estilo!
+                  </p>
+                  <a href="#items">Detalhes</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flipper3 flipper">
+            <div class="card">
+              <div class="front">
+                <img src="https://www.themoviedb.org/t/p/original/2dSZQGwijlXvMSyuGe0FSgrXnv0.jpg" />
+              </div>
+              <div class="back">
+                <div class="text-card">
+                  <h3>Tudo em Todo o Lugar ao Mesmo Tempo </h3>
+                  <p>Uma imigrante chinesa parte rumo a uma aventura onde, sozinha, precisará salvar o mundo, explorando outros universos e outras vidas que poderia ter vivido. Contudo, as coisas se complicam quando ela fica presa nessa infinidade de possibilidades sem conseguir retornar para casa.
+                  </p>
+                  <a href="./hmtl/movie4">Detalhes</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flipper4 flipper">
+            <div class="card">
+              <div class="front">
+                <img src="https://www.themoviedb.org/t/p/original/iJ95qHRfhWx1zUrOtWuqeHcBKtG.jpg" />
+              </div>
+              <div class="back">
+                <div class="text-card">
+                  <h3>Jibaro</h3>
+                  <p>Criaturas aterrorizantes, surpresas bizarras e humor ácido habitam em cada episódio dessa série.
+                  </p>
+                  <a href="./html/jibaro">Detalhes</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flipper5 flipper">
+            <div class="card">
+              <div class="front">
+                <img src="https://www.themoviedb.org/t/p/original/fVzXp3NwovUlLe7fvoRynCmBPNc.jpg" />
+              </div>
+              <div class="back">
+                <div class="text-card">
+                  <h3>Homem-Aranha: Sem Volta Para Casa </h3>
+                  <p>Peter Parker é desmascarado e não consegue mais separar sua vida normal dos grandes riscos de ser um super-herói. Quando ele pede ajuda ao Doutor Estranho, os riscos se tornam ainda mais perigosos, e o forçam a descobrir o que realmente significa ser o Homem-Aranha...
+                  </p>
+                  <a href="#items">Detalhes</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flipper6 flipper">
+            <div class="card">
+              <div class="front">
+                <img src="https://www.themoviedb.org/t/p/original/ybQSBSrINtjWsJQ6Ih8sva8HlEZ.jpg" />
+              </div>
+              <div class="back">
+                <div class="text-card">
+                  <h3>Homem-Aranha no Aranhaverso </h3>
+                  <p>Miles Morales é um jovem negro do Brooklyn que se tornou o Homem-Aranha inspirado no legado de Peter Parker, já falecido. Entretanto, ao visitar o túmulo de seu ídolo em uma noite chuvosa, ele é surpreendido com a presença do próprio Peter, vestindo o traje do herói aracnídeo sob um sobretudo.
+                  </p>
+                  <a href="#items">Detalhes</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer id="footer">
+        <div class="footer-title">Desenvolvedores</div>
+        <nav class="authors">
+          <div class="dev">
+            <span>Afra Taíza</span>
+            <div class="icons">
+              <a class="linkedin" href="https://www.linkedin.com/in/afrataiza"></a>
+              <a class="github" href="https://github.com/afrataiza"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Carina</span>
+            <div class="icons">
+              <a class="linkedin" href="https://www.linkedin.com/in/carina-alves-pinheiro-526a26b4/"></a>
+              <a class="github" href="https://github.com/Carinapinheiro"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Carlos</span>
+            <div class="icons">
+              <a class="linkedin" href="https://www.linkedin.com/in/carlosaugusto0"></a>
+              <a class="github" href="https://github.com/CarlosAugusto14"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Febrônio</span>
+            <div class="icons">
+              <a class="linkedin" href="https://www.linkedin.com/in/fbaboni/"></a>
+              <a class="github" href="https://github.com/fba-boni"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Fernanda</span>
+            <div class="icons">
+              <a class="linkedin" href="#"></a>
+              <a class="github" href="https://github.com/Fermqs"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Jônatas</span>
+            <div class="icons">
+              <a class="linkedin" href="https://www.linkedin.com/in/jonsdamaceno/"></a>
+              <a class="github" href="https://github.com/jonsdamaceno"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Patrícia</span>
+            <div class="icons">
+              <a class="linkedin" href="https://www.linkedin.com/in/patr%C3%ADcia-delvequi/"></a>
+              <a class="github" href="https://github.com/delvequi"></a>
+            </div>
+          </div>
+          <div class="dev">
+            <span>Rafael</span>
+            <div class="icons">
+              <a class="linkedin" href="https://www.linkedin.com/in/rafael-rosa-barroso-b41b47215/"></a>
+              <a class="github" href="https://www.github.com/barroso3b
+"></a>
+            </div>
+          </div>
+        </nav>
+        <div class="copyright">Checkpoint 2 - Setembro de 2022</div>
+      </footer>
+</body>
+</html>
