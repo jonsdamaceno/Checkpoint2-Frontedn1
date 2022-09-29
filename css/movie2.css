@@ -12,7 +12,7 @@ body {
 .imgprincipal {
     background-position: center;
     width: 100vw;
-    background-image: url("/img/sessão\ aranha.jpg");
+    background-image: url("../img/sessão\ aranha.jpg");
     background-size: cover;
     height: 650px;
 }
