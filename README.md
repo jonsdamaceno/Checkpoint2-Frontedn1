@@ -36,7 +36,7 @@ Clique [aqui](https://jonsdamaceno.github.io/Checkpoint2-Frontedn1/index.html) p
 - Carina Pinheiro: [@carina](https://www.github.com/Carinapinheiro)
 - Carlos Augusto: [@carlos](https://www.github.com/CarlosAugusto14)
 - Febrônio: [@febronio](https://www.github.com/fba-boni)
-- Fernanda Marques: [@fenanda](https://www.github.com/Fermqs)
+- Fernanda Marques: [@fernanda](https://www.github.com/Fermqs)
 - Jônatas Damaceno: [@jonatas](https://www.github.com/jonsdamaceno)
 - Patrícia Delvequi: [@delvequi](https://www.github.com/delvequi)
 - Rafael Barroso: [@rafael](https://www.github.com/barroso3b)
