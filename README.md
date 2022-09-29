@@ -1,15 +1,23 @@
 # HOUSE FLIX
 
-Projeto integrador de Front End 1, para conclusão do bimestre, no curso Certified Tech Developer da escola Digital House. O projeto foi realizado em grupo, utilizando html, css, bootstrap.
-Foi criada uma página inicial de uma plataforma de streaming, exibindo alguns filmes em destaque, além disso também foram criadas páginas de detalhes de cada filme exibido, bem como um modal de login. O projeto possui responsividade, para versão mobile.
+Enquanto alunas/os/es do curso Certified Tech Developer, da instituição de ensino Digital House, é necessário entregar atividades integradoras (checkpoint) como forma avaliativa para recebimento de nota. Este projeto, **House Flix**, é o último checkpoint de Front End 1, encerrando nossa participação ativa na disciplina.
+
+Para execução do projeto, realizado em grupo, utilizamos HTML, CSS e Bootstrap, colocando em prática os conhecimentos adquiridos ao longo do curso.
+
+
+## Resumo
+
+1. Criação de uma página inicial de uma plataforma de streaming, exibindo alguns filmes em destaque;
+2. Estruturação de páginas de detalhes para cada filme exibido na home (06 ao total), linkadas à index do main;
+3. Produção de uma tela modal de login na plataforma;
+4. Criação de responsividade para mobile (max. width: 460px).
 
 
 ## Aprendizados
 
-Foi possível aprofundar o conhecimento em html, css, git e github e desenvolver habilidades em bootstrap.
-O grupo pôde desenvolver habilidades em soft skills, como comunicação, trabalho em equipe, empatia, criatividade, entre outras.
+Aprofundamento do conhecimento em HTML, CSS, Git e Github, e desenvolvimento de habilidades em Bootstrap.
 
-
+Além dessas habilidades técnincas, o grupo foi capaz de desenvolver soft skills, como comunicação, liderança horizontal e autogestão, trabalho em equipe, resiliência, empatia, criatividade, pensamento analítico e crítico, entre outras.
 
 
 ## Stack utilizada
@@ -21,14 +29,15 @@ O grupo pôde desenvolver habilidades em soft skills, como comunicação, trabal
 
 Clique [aqui](https://jonsdamaceno.github.io/Checkpoint2-Frontedn1/index.html) para ver uma demonstração do projeto.
 
-## Autores
 
-- Afra Taíza - [@afrataiza](https://www.github.com/afrataiza)
-- Carina Pinheiro - [@carina](https://www.github.com/Carinapinheiro)
-- Carlos Augusto - [@carlos](https://www.github.com/CarlosAugusto14)
-- Febrônio - [@febronio](https://www.github.com/fba-boni)
-- Fernanda Marques - [@fenanda](https://www.github.com/Fermqs)
-- Jônatas Damaceno - [@jonatas](https://www.github.com/jonsdamaceno)
-- Patrícia Delvequi - [@delvequi](https://www.github.com/delvequi)
-- Rafael Barroso - [@rafael](https://www.github.com/barroso3b)
+## Pessoas autoras
+
+- Afra Taíza: [@afrataiza](https://www.github.com/afrataiza)
+- Carina Pinheiro: [@carina](https://www.github.com/Carinapinheiro)
+- Carlos Augusto: [@carlos](https://www.github.com/CarlosAugusto14)
+- Febrônio: [@febronio](https://www.github.com/fba-boni)
+- Fernanda Marques: [@fenanda](https://www.github.com/Fermqs)
+- Jônatas Damaceno: [@jonatas](https://www.github.com/jonsdamaceno)
+- Patrícia Delvequi: [@delvequi](https://www.github.com/delvequi)
+- Rafael Barroso: [@rafael](https://www.github.com/barroso3b)
 

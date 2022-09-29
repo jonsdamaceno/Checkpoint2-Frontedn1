@@ -12,25 +12,51 @@
 </head>
 <body>
     <!--  HEADER  -->
+   <!-- Modal -->
+<div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="loginHeader" src="https://raw.githubusercontent.com/afrataiza/teste/main/dhlogo.png" alt="Digital House">
+        <form>
+          <label for="email">Email</label>
+          <input type="email" name="email">
+          <label for="senha">Senha</label>
+          <input type="password" name="senha">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn loginButton">Entrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
     <header>
-      <img class="logo" src="https://raw.githubusercontent.com/afrataiza/teste/main/dhlogo.png" alt="Digital House">
-      <nav class="menu">
-        <a class="link" href="../index.html">Home</a>
-        <a class="link" href="../index.html">Filmes</a>
-        <a class="link" href="#footer">Sobre nós</a>
-        <a class="link" href="#">Login</a>
-      </nav>
-      <a href="#open-modal" class="btn-menu"></a>
-      <div id="open-modal" class="modal-window">
-        <div class="navegacao">
-          <a href="#" title="Close" class="modal-close">Fechar</a>
+        <img class="logo" src="https://raw.githubusercontent.com/afrataiza/teste/main/dhlogo.png" alt="Digital House">
+        <nav class="menu">
           <a class="link" href="../index.html">Home</a>
           <a class="link" href="../index.html">Filmes</a>
           <a class="link" href="#footer">Sobre nós</a>
-          <a class="link" href="#">Login</a>
+          <a class="link" href="#" data-toggle="modal" data-target="#login">Login</a>
+        </nav>
+        <a href="#open-modal" class="btn-menu"></a>
+        <div id="open-modal" class="modal-window">
+          <div class="navegacao">
+            <a href="#" title="Close" class="modal-close">Fechar</a>
+            <a class="link" href="../index.html">Home</a>
+            <a class="link" href="../index.html">Filmes</a>
+            <a class="link" href="#footer">Sobre nós</a>
+            <a class="link" href="#" data-toggle="modal" data-target="#login">Login</a>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
 <!--  HEADER  -->
     <main>
         <div class="cartaz">
@@ -62,24 +88,27 @@
           <div class="dev">
             <span>Afra Taíza</span>
             <div class="icons">
-              <a class="linkedin" href="https://www.linkedin.com/in/afrataiza"></a>
-              <a class="github" href="https://github.com/afrataiza"></a>
+              <a class="linkedin" href="https://www.linkedin.com/in/afrataiza" target="_blank"></a>
+              <a class="github" href="https://github.com/afrataiza" target="_blank"></a>
             </div>
           </div>
+
           <div class="dev">
             <span>Carina</span>
             <div class="icons">
-              <a class="linkedin" href="#"></a>
-              <a class="github" href="https://github.com/Carinapinheiro"></a>
+              <a class="linkedin" href="https://www.linkedin.com/in/carina-alves-pinheiro-526a26b4/" target="_blank"></a>
+              <a class="github" href="https://github.com/Carinapinheiro" target="_blank"></a>
             </div>
           </div>
+
           <div class="dev">
             <span>Carlos</span>
             <div class="icons">
-              <a class="linkedin" href="#"></a>
-              <a class="github" href="#"></a>
+              <a class="linkedin" href="https://www.linkedin.com/in/carlosaugusto0" target="_blank"></a>
+              <a class="github" href="https://github.com/CarlosAugusto14" target="_blank"></a>
             </div>
           </div>
+
           <div class="dev">
             <span>Febrônio</span>
             <div class="icons">
@@ -87,32 +116,36 @@
               <a class="github" href="https://github.com/fba-boni" target="_blank"></a>
             </div>
           </div>
+
           <div class="dev">
             <span>Fernanda</span>
             <div class="icons">
-              <a class="linkedin" href="#"></a>
-              <a class="github" href="https://github.com/Fermqs"></a>
+              <a class="linkedin" href="#" target="_blank"></a>
+              <a class="github" href="https://github.com/Fermqs" target="_blank"></a>
             </div>
           </div>
+
           <div class="dev">
             <span>Jônatas</span>
             <div class="icons">
-              <a class="linkedin" href="#"></a>
-              <a class="github" href="https://github.com/jonsdamaceno"></a>
+              <a class="linkedin" href="https://www.linkedin.com/in/jonsdamaceno/" target="_blank"></a>
+              <a class="github" href="https://github.com/jonsdamaceno" target="_blank"></a>
             </div>
           </div>
+
           <div class="dev">
             <span>Patrícia</span>
             <div class="icons">
-              <a class="linkedin" href="https://www.linkedin.com/in/patr%C3%ADcia-delvequi/"></a>
-              <a class="github" href="https://github.com/delvequi"></a>
+              <a class="linkedin" href="https://www.linkedin.com/in/patr%C3%ADcia-delvequi/" target="_blank"></a>
+              <a class="github" href="https://github.com/delvequi" target="_blank"></a>
             </div>
           </div>
+
           <div class="dev">
             <span>Rafael</span>
             <div class="icons">
-              <a class="linkedin" href="#"></a>
-              <a class="github" href="#"></a>
+              <a class="linkedin" href="https://www.linkedin.com/in/rafael-rosa-barroso-b41b47215/" target="_blank"></a>
+              <a class="github" href="https://www.github.com/barroso3b" target="_blank"></a>
             </div>
           </div>
         </nav>
