@@ -15,7 +15,8 @@ Para execução do projeto, realizado em grupo, utilizamos HTML, CSS e Bootstrap
 
 ## Aprendizados
 
-Aprofundamento do conhecimento em HTML, CSS, Git e Github, e desenvolvimento habilidades em Bootstrap.
+Aprofundamento do conhecimento em HTML, CSS, Git e Github, e desenvolvimento de habilidades em Bootstrap.
+
 Além dessas habilidades técnincas, o grupo foi capaz de desenvolver soft skills, como comunicação, liderança horizontal e autogestão, trabalho em equipe, resiliência, empatia, criatividade, pensamento analítico e crítico, entre outras.
 
 
