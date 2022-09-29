@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
+/* ----> CSS HEADER <---- */
 header {
     background-image: linear-gradient(to left, #7f53ac 0, #657ced 100%);
     display: flex;
@@ -20,51 +24,6 @@ header {
     z-index: 999;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
 }
-
-.modal-header {
-  border-bottom: 0;
-}
-
-.loginHeader{ 
-  width: 15rem;
-  margin-left: 7rem;
-  
-}
-
-.modal-content {
-  border: 0;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  margin-left: 2rem;
-}
-
-label {
-  margin-bottom: 0;
-  margin-top: 2rem;
-}
-
-input {
-  width: 25rem;
-  border-radius: 0.30rem;
-  border-color: #ccc9c9;
-  border-width: 0.1rem;
-}
-  
-.modal-footer {
-  border-top: 0;
-}
-
-.loginButton{
-  color: white;
-  background-color: rgb(6, 156, 6);
-  width: 25rem;
-  margin-right: 2.5rem;
-  margin-top: 2rem;
-}
-
 
 .menu {
     display: flex;
@@ -162,138 +121,63 @@ input {
     justify-content: space-around;
     flex-wrap: nowrap;
 }
+/* ----> CSS HEADER <---- */
 
-body{
-    overflow-x: hidden;
-}
-
-main{
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.banner-filme{
-    background-image: url('../img/banner-filme.webp');
+.cartaz{
+    background-image: url(../img/asbranquelaswallpaper.png);
+    height: 649px;
     background-repeat: no-repeat;
+    /*background-size: contain;*/
     background-size: cover;
-    width: 100vw;
-    height: 650px;
-}
-
-.movieGeral{
-    width: 75vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 35px 100px;
-}
-
-.sinopse{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-h2{
-    color: #000000;
-    font-size: 3.8rem;
-    font-weight: 900;
-    line-height: 75px;
-    text-align: left;
-}
-
-.starIcon{
-    color: #FBE159;
-    width: 25px;
-    height: 25px;
-    margin: 5px 5px 5px 0;
-}
-
-.movieInfo{
-    color: #000000BF;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 2.188rem;
-    width: 85vw;
-}
-
-.category{
-    width: 285px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-}
-
-.category span{
-    width: auto;
-    height: 2.813rem;;
-    text-align: center;
-    font-size: 0.8rem;
-    line-height: 2.5rem;
-    border: solid 2.5px #E51B3E;
-    border-radius: 8px;
-    padding: 0 0.938rem;
-}
-
-.category span:hover{
-    background-color: #E51B3E;
     color: white;
-    transition: 0.5s;
-}
-
-p{
-    color: #000000BF;
-    font-weight: 400;
-    font-size: 0.95rem;
-    line-height: 21px;
-    margin: 20px 0;
-}
-
-.ficha-tecnica{
-    width: 35vw;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+    align-items:center;
+    justify-content:center;
+    font-size: 3rem;
+    margin: 0px;
 }
-
-.ficha-tecnica h4{
-    color: #000000BF;
+main h1, p{
+    margin: 10px 122px;
+}
+main h1{
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.ranking{
+    margin-left: 122px;
+}
+.producao{
+    margin: 40px 122px;
+    display: inline-block;
+}
+.diretor{
+    font-size: 1.5rem;
     font-weight: 500;
+}
+.elenco{
     font-size: 1.125rem;
-    line-height: 28px;
-}
-
-.ficha-tecnica h4 span{
-    color: #E51B3E;
     font-weight: 400;
-    font-size: 0.95rem;
-    line-height: 21px;
+    color: #0085FF
 }
-
-.trailer{
-    width: 100%;
-    height: auto;
-}
-
-.trailer h3{
-    color: #000000;
-    font-weight: 400;
+main h2{
     font-size: 2.25rem;
-    line-height: 42px;
-    margin: 15px 0;
+    font-weight: 400;
+    margin: 10px 122px;
 }
-
-.trailer iframe{
+.trailer{
+    margin: 10px 30px;
     width: 100%;
-    border-radius: 0.75rem;
+    height: 659px;
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    width: 85%;
+    height: 95%;
 }
 
+/* ----> CSS FOOTER <---- */
 footer {
     background-color: #222;
     display: flex;
@@ -415,16 +299,9 @@ footer .copyright {
     opacity: 1;
     transform: scale(1);
 }
+/* ----> CSS FOOTER <---- */
 
-@media (max-width: 460px){
-    header {
-        padding: 0 20px;
-    }
-
-    .logo {
-        width: 140px;
-    }
-
+@media (max-width: 480px) {
     .menu {
         display: none;
     }
@@ -433,21 +310,79 @@ footer .copyright {
         display: block;
     }
 
-    .movieInfos{
-        margin: 20px;
+    header {
+        padding: 0 20px;
     }
 
-    .ficha-tecnica{
-        width: 100%;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .trailer iframe{
-        height: 230px;
+    .logo {
+        width: 140px;
     }
 
     .authors {
         width: 80%;
     }
+}
+
+
+/*
+#aluno1, #aluno2, #aluno3{
+    text-align: left;
+}
+#aluno4, #aluno5{
+    text-align: center;
+}
+#aluno6, #aluno7, #aluno8{
+    text-align: right;
+}
+*/
+
+
+
+/**
+000-480  => Smaller Smartphones
+481-768  => Tables & Larger Smartphones
+769-1279 => Laptops, Larger tablets in landscape, small desktops
+1280+    => Larger desktops and monitors
+*/
+@media (max-width: 480px){
+    .cartaz{
+        height: 250px;
+        width: 100%;
+        background-size:auto;
+        background-position: center;
+        font-size: 1.5rem;
+        margin: 0px;
+    }
+    main h1, p{
+        margin: 5px 61px;
+    }   
+    main h1{
+        font-size: 2rem;
+        font-weight: 450;
+        text-transform: uppercase;
+    }
+    .ranking{
+        margin-left: 61px;
+    }
+    .producao{
+        margin: 20px 61px;
+    }
+    .diretor{
+        font-size: 1.5rem;
+        font-weight: 250;
+    }
+    .elenco{
+        font-size: 1.125rem;
+        font-weight: 300;
+    }
+    main h2{
+        font-size: 2rem;
+        font-weight: 300;
+        margin: 5px 61px;
+    }
+    .trailer{
+        margin: 5px 15px;
+        height: 359px;
+    }
+
 }
