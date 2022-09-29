@@ -14,22 +14,48 @@
 
 <body>
 
+   <!-- Modal -->
+<div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="loginHeader" src="https://raw.githubusercontent.com/afrataiza/teste/main/dhlogo.png" alt="Digital House">
+        <form>
+          <label for="email">Email</label>
+          <input type="email" name="email">
+          <label for="senha">Senha</label>
+          <input type="password" name="senha">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn loginButton">Entrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
     <header>
         <img class="logo" src="https://raw.githubusercontent.com/afrataiza/teste/main/dhlogo.png" alt="Digital House">
         <nav class="menu">
-          <a class="link" href="#banner">Home</a>
-          <a class="link" href="#items">Filmes</a>
+          <a class="link" href="../index.html">Home</a>
+          <a class="link" href="../index.html">Filmes</a>
           <a class="link" href="#footer">Sobre nós</a>
-          <a class="link" href="#">Login</a>
+          <a class="link" href="#" data-toggle="modal" data-target="#login">Login</a>
         </nav>
         <a href="#open-modal" class="btn-menu"></a>
         <div id="open-modal" class="modal-window">
           <div class="navegacao">
             <a href="#" title="Close" class="modal-close">Fechar</a>
-            <a class="link" href="#banner">Home</a>
-            <a class="link" href="#items">Filmes</a>
+            <a class="link" href="../index.html">Home</a>
+            <a class="link" href="../index.html">Filmes</a>
             <a class="link" href="#footer">Sobre nós</a>
-            <a class="link" href="#">Login</a>
+            <a class="link" href="#" data-toggle="modal" data-target="#login">Login</a>
           </div>
         </div>
       </header>
