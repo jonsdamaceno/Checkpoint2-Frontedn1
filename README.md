@@ -1,4 +1,4 @@
-# HOUSE FLIX
+# HOUSE FLIX edit carina
 
 Enquanto alunas/os/es do curso Certified Tech Developer, da instituição de ensino Digital House, é necessário entregar atividades integradoras (checkpoint) como forma avaliativa para recebimento de nota. Este projeto, **House Flix**, é o último checkpoint de Front End 1, encerrando nossa participação ativa na disciplina.
 
